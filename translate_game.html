@@ -8,28 +8,63 @@ COLLABORATORS: Abner Mencia & Alex Peraza
    
   -->
 
-<!DOCTYPE html>
+  <!DOCTYPE html>
 
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Ready, Set, Translate !</title>
-    <link type="text/css" href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
-    <link type="text/css" href="translate_game.css" rel="stylesheet" />
-
-    <script type="text/javascript" src="jquery/js/jquery-1.9.0.min.js"></script>
-    <script type="text/javascript" src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
-    <script type="text/javascript" src="dicts.json"></script>
-    <script type="text/javascript" src="translate_game.js"></script>
-
-  </head>
-  <body>
-    <!-- Your HTML here -->
-    <span>Translate from <strong>Spanish</strong> into <strong>English</strong> </span>
-
-    <section class="">
+  <html>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>Ready, Set, Translate !</title>
+      <link type="text/css" href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+      <link type="text/css" href="translate_game.css" rel="stylesheet" />
+  
+      <script type="text/javascript" src="jquery/js/jquery-1.9.0.min.js"></script>
+      <script type="text/javascript" src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+      <script type="text/javascript" src="./dicts.json"></script>
+      <script type="application/javascript" src="translate_game.js"></script>
+  
+    </head>
+    <body>
+      <!-- Your HTML here -->
+      <section class="container">
+        
+      <span>Translate from <strong>Spanish</strong> into <strong>English</strong></span>
+  
+      <section class="MainSection">
+        <div class="wds" id = "words">
+          <p>Spanish</p>
+          <p style="color: black" id ="translation"></p>
+        </div>
+                      
+        <div class="wds" id ="English">
+          <p>English</p>
+          <input type="text" name="EnglishInput" id="EnglishInput" class="inputAnswer" autofocus />
+        </div>
+  
+        <div class="wds" id = "Answer" >
+          <p>Answer</p>
+          <button class="seeAnswer" id="seeAnswer">See Answer</button>
+        </div>
+       </section> 
       
-     </section> 
-
-  </body>
-</html>
+       <table class="MainSection2" id="DisplayEntries">
+        <tr class="twds" >
+          <td>
+            <p  style="color: blue; line-height: normal">calabaza</p>
+            <p style="color: red; line-height: normal">postmodernidad</p>
+          </td>
+          <td class="twds" id="previousEnglish">
+            <p style="color: blue; line-height: normal">pumpkin</p>
+            <p style="color: red; line-height: normal; text-decoration: line-through;">phone</p>
+          </td>
+          <td class="twds" id="previousAnswer">
+            <p style="color: black; line-height: normal; padding-left: 30%;">&#x2713;</p>
+            <p style="color: red; line-height: normal">postmodernism</p>
+          </td>
+        </tr>
+      </table>
+       
+      </section>
+  
+    </body>
+  </html>
+  
