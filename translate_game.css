@@ -25,6 +25,9 @@ html {
     margin-top: 3%
 }
 
+#addpadding{
+  padding-bottom: 30px;
+}
   
 span {
     font-size: 32px;
@@ -49,16 +52,16 @@ span {
 
 tr p{
   font-family: sans-serif;
-  font-size:x-large
+  font-size:x-large;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
-/* 
-tr{
-  max-width: 10%;
-} */
+
+
 
 p{
   padding: 0px;
-  line-height: 0px;
+  line-height: normal;
 }
 
 .MainSection2{
@@ -70,20 +73,17 @@ p{
 
 
 td{
+  border: 1px solid purple;
     border-collapse: collapse;
     width: 35%;
     padding-right: 10px;
-
- 
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
+tr{padding: 0;}
 
-.correct-entry {
-    color: green;
-  }
-  .incorrect-entry {
-    color: red;
-  }
+
 
   strong {
     font-weight: bold;

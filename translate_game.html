@@ -13,6 +13,8 @@ COLLABORATORS: Abner Mencia & Alex Peraza
   <html>
     <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta charset="UTS-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1" >
       <title>Ready, Set, Translate !</title>
       <link type="text/css" href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
       <link type="text/css" href="translate_game.css" rel="stylesheet" />
@@ -37,7 +39,7 @@ COLLABORATORS: Abner Mencia & Alex Peraza
                       
         <div class="wds" id ="English">
           <p>English</p>
-          <input type="text" name="EnglishInput" id="EnglishInput" class="inputAnswer" autofocus />
+          <input type="text" name="EnglishInput" id="EnglishInput" class="inputAnswer"  autofocus />
         </div>
   
         <div class="wds" id = "Answer" >
@@ -47,20 +49,31 @@ COLLABORATORS: Abner Mencia & Alex Peraza
        </section> 
       
        <table class="MainSection2" id="DisplayEntries">
-        <tr class="twds" >
-          <td>
-            <p  style="color: blue; line-height: normal">calabaza</p>
-            <p style="color: red; line-height: normal">postmodernidad</p>
-          </td>
-          <td class="twds" id="previousEnglish">
-            <p style="color: blue; line-height: normal">pumpkin</p>
-            <p style="color: red; line-height: normal; text-decoration: line-through;">phone</p>
-          </td>
-          <td class="twds" id="previousAnswer">
-            <p style="color: black; line-height: normal; padding-left: 30%;">&#x2713;</p>
-            <p style="color: red; line-height: normal">postmodernism</p>
-          </td>
+        <tr >
+          <td  class="twds">
+            <p style="color: blue">calabaza</p>
+            
+            </td>
+            <td class="twds" id="previousEnglish">
+              <p style="color: blue;">pumpkin</p>
+        
+            </td>
+            <td class="twds" id="previousAnswer">
+              <p style="color: black;"><span style="color: black;">&#10003;</span></p>
+            </td>
         </tr>
+      <tr>
+        <td  class="twds">
+          <p style="color: red">postmodernidad</p>
+        </td>
+        <td class="twds" id="previousEnglish">
+          <p style="color: red;text-decoration: line-through;">phone</p>
+        </td>
+        <td class="twds" id="previousAnswer">
+          <p style="color: red; ">postmodernism </p>
+        </td>
+      </tr>
+
       </table>
        
       </section>
