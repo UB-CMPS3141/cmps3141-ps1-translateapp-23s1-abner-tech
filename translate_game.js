@@ -120,7 +120,7 @@ $("#EnglishInput").autocomplete({
 	}, 1000); // Adjust the delay (in milliseconds) as needed
   }
   
-	 s
+	 
 
   
 	// Click event for the "See Answer" button
@@ -140,5 +140,5 @@ $("#EnglishInput").autocomplete({
 
   });
   
-
+//////last update
 
