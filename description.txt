@@ -1,0 +1,20 @@
+Team members: Abner Mencia & Alex Peraza
+
+Typography:
+
+The font sans serif was selected because of its simplicity design allowing just
+anyone to read withouth a strugle when comared to a cursive style. Spacing for translated 
+words and results were made a little more bigger to help other have a easier time diferenciating line,
+from others, this is also the reason for adding table border. In relation to layout, we decided to
+center entire container since id be unconformable to just be looking to one edge of the screen
+haveing the device directly inform of oneself. Size was made to expand automatically. this was done
+because we also decided not to limit number of rows since should a person want to go back and see a 
+previously translated word, he/she ccan simple scroll down to find and not spend time translating to once again
+come across the randomly goven word. as for text size, it was left pretty large for eassy reading.
+as for font weight, it was left as strong to give an easier time reading.
+
+
+color pallette:
+for wrong and correct asnwers, we decided to completly contrast colors since the difference can 
+be seen immediatly. as for background color for container we decided to use a dark gray since 
+it goes eassy on the eye and doesnt conflict with text color choosen.
