@@ -20,4 +20,5 @@ be seen immediatly. as for background color for container we decided to use a da
 it goes eassy on the eye and doesnt conflict with text color choosen.
 
 
-online link:    https://github.com/UB-CMPS3141/cmps3141-ps1-translateapp-23s1-abner-tech
+online link:    https://ub-cmps3141.github.io/cmps3141-ps1-translateapp-23s1-abner-tech/translate_game.html
+folder link     https://github.com/UB-CMPS3141/cmps3141-ps1-translateapp-23s1-abner-tech
