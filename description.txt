@@ -18,3 +18,6 @@ color pallette:
 for wrong and correct asnwers, we decided to completly contrast colors since the difference can 
 be seen immediatly. as for background color for container we decided to use a dark gray since 
 it goes eassy on the eye and doesnt conflict with text color choosen.
+
+
+online link:    https://github.com/UB-CMPS3141/cmps3141-ps1-translateapp-23s1-abner-tech
